@@ -201,7 +201,6 @@ export default function RSVPPage() {
                         <li key={g.rowIndex}>
                           <button className={styles.resultItem} onClick={() => selectGuest(g)}>
                             <span className={styles.resultName}>{g.displayName} {g.lastName}</span>
-                            <span className={styles.resultCategory}>{g.category}</span>
                           </button>
                         </li>
                       ))}
