@@ -1,4 +1,4 @@
-import React, { useState, useRef, useCallback } from 'react';
+import React, { useState, useRef } from 'react';
 import BotanicalDivider from '../components/BotanicalDivider';
 import styles from './RSVPPage.module.css';
 
