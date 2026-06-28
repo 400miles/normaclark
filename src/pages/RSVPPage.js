@@ -325,7 +325,7 @@ export default function RSVPPage() {
           <div className={styles.centered}>
             <div className={styles.doneIcon} aria-hidden="true">✦</div>
             <h2 className={styles.cardTitle}>
-              {form.rsvpStatus === 'Attending' ? 'We'll see you there.' : 'Thank you for letting us know.'}
+              {form.rsvpStatus === 'Attending' ? "We'll see you there." : 'Thank you for letting us know.'}
             </h2>
             <p className={styles.cardHint}>
               {form.rsvpStatus === 'Attending'
